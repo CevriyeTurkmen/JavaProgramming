@@ -11,6 +11,8 @@ public class BMW extends Car{
         System.out.println(brand+" "+ model+ "break downs every 100 miles");
     }
 
-
-
+    @Override
+    public void start() {
+        System.out.println("Call mechanic to jump start"+brand+" "+model);
+    }
 }

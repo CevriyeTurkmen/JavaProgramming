@@ -9,6 +9,8 @@ public void autoPilot(){
     System.out.println(brand+" "+model+ "in auto pilot mode");
 }
 
-
-
+    @Override
+    public void start() {
+        System.out.println("Say \"start\" to start"+brand+ " "+model);
+    }
 }
